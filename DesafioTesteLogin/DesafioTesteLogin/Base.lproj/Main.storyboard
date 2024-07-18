@@ -50,7 +50,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Entrar"/>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eye" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ELK-Ud-IOX">
-                                <rect key="frame" x="337" y="256.33333333333331" width="30" height="26"/>
+                                <rect key="frame" x="337" y="256.33333333333337" width="30" height="25.999999999999943"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Je1-0n-OLe"/>
                                     <constraint firstAttribute="height" constant="30" id="jlH-8h-KIh"/>
@@ -85,6 +85,14 @@
                             <constraint firstItem="sLG-9F-D5D" firstAttribute="centerY" secondItem="mOG-DH-1wg" secondAttribute="centerY" id="y6h-Dn-5FK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextFild" destination="8nF-YT-EFi" id="FV8-xJ-0mN"/>
+                        <outlet property="entrarButton" destination="tYz-Us-wqg" id="ovb-Nt-H8F"/>
+                        <outlet property="logoImageView" destination="nr2-aO-ctm" id="zpu-Ew-Ema"/>
+                        <outlet property="olhoEamilImageView" destination="ELK-Ud-IOX" id="eVO-q5-nGW"/>
+                        <outlet property="olhoSenhaImageView" destination="sLG-9F-D5D" id="gd3-F0-8po"/>
+                        <outlet property="senhaTextFild" destination="mOG-DH-1wg" id="9eV-5n-Bbl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
